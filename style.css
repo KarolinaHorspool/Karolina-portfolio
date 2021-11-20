@@ -59,22 +59,20 @@
   }
   
   .primary-link {
+    color: var(--primary-color);
     margin: 0 20px;
+    border: 6px black;
     border-radius: 8px;
     padding: 20px 15px;
     text-decoration: none;
     text-transform: capitalize;
     font-weight: bold;
-    background: hsla(0, 0%, 100%, 1);
+    background: var(--secondary-color);
+  }
 
-background: linear-gradient(135deg, hsla(0, 0%, 100%, 1) 0%, hsla(0, 0%, 0%, 1) 48%);
-
-background: -moz-linear-gradient(135deg, hsla(0, 0%, 100%, 1) 0%, hsla(0, 0%, 0%, 1) 48%);
-
-background: -webkit-linear-gradient(135deg, hsla(0, 0%, 100%, 1) 0%, hsla(0, 0%, 0%, 1) 48%);
-
-filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFFFFF", endColorstr="#000000", GradientType=1 );
-    color: white;
+  .primary-link:hover {
+    color: var(--secondary-color);
+    background: var(--primary-color);
   }
   
   .plain {
