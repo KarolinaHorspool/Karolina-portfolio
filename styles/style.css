@@ -92,6 +92,10 @@
     transition: all 300ms ease;
   }
 
+  .footer {
+    font-size: 8px;
+  }
+
   footer .social-links a {
     margin: 0 20px;
     color: var(--primary-color);
